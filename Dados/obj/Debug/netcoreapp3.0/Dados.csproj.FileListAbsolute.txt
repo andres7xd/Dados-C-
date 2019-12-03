@@ -1,0 +1,11 @@
+C:\Users\andre\Desktop\Mis cosas\Programas\GitHub\Dados\Dados-C-\Dados\bin\Debug\netcoreapp3.0\Dados.exe
+C:\Users\andre\Desktop\Mis cosas\Programas\GitHub\Dados\Dados-C-\Dados\bin\Debug\netcoreapp3.0\Dados.deps.json
+C:\Users\andre\Desktop\Mis cosas\Programas\GitHub\Dados\Dados-C-\Dados\bin\Debug\netcoreapp3.0\Dados.runtimeconfig.json
+C:\Users\andre\Desktop\Mis cosas\Programas\GitHub\Dados\Dados-C-\Dados\bin\Debug\netcoreapp3.0\Dados.runtimeconfig.dev.json
+C:\Users\andre\Desktop\Mis cosas\Programas\GitHub\Dados\Dados-C-\Dados\bin\Debug\netcoreapp3.0\Dados.dll
+C:\Users\andre\Desktop\Mis cosas\Programas\GitHub\Dados\Dados-C-\Dados\bin\Debug\netcoreapp3.0\Dados.pdb
+C:\Users\andre\Desktop\Mis cosas\Programas\GitHub\Dados\Dados-C-\Dados\obj\Debug\netcoreapp3.0\Dados.AssemblyInfoInputs.cache
+C:\Users\andre\Desktop\Mis cosas\Programas\GitHub\Dados\Dados-C-\Dados\obj\Debug\netcoreapp3.0\Dados.AssemblyInfo.cs
+C:\Users\andre\Desktop\Mis cosas\Programas\GitHub\Dados\Dados-C-\Dados\obj\Debug\netcoreapp3.0\Dados.dll
+C:\Users\andre\Desktop\Mis cosas\Programas\GitHub\Dados\Dados-C-\Dados\obj\Debug\netcoreapp3.0\Dados.pdb
+C:\Users\andre\Desktop\Mis cosas\Programas\GitHub\Dados\Dados-C-\Dados\obj\Debug\netcoreapp3.0\Dados.csprojAssemblyReference.cache
