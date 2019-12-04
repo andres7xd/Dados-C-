@@ -5,17 +5,25 @@ namespace Dados
     class Program
     {
         static void Main(string[] args)
-        {   while(Console.ReadKey().Key == ConsoleKey.Enter)
+        {
+           
+
+
+
+            while (Console.ReadKey().Key == ConsoleKey.Enter)
             {
+              
                 Console.WriteLine("Nueva visualizacion");
-                DibujarDado(4, 5, 1);
+
+                DadoAleatorio();
                 
+
             }
 
-           
-            
-            
-        
+
+
+
+
         }
 
         static void DibujarDado(int caraSuperior, int caraFrontal, int caraIsquierda)
@@ -34,6 +42,36 @@ namespace Dados
             Console.WriteLine("                     #    {0}    #", Math.Abs(caraSuperior - 7));
             Console.WriteLine("                     #         #");
             Console.WriteLine("                     ###########            ");
+        }
+
+        static void DadoAleatorio()
+        {
+            int aux = 0;
+            int x, y, z = 0;
+           
+            Random random = new Random();
+          
+            
+            while (aux == 0){
+               
+                x = random.Next(1, 6);
+                y = random.Next(1, 6);
+                z = random.Next(1, 6);
+
+                if(x!=y && x!=z && y!=z && x+y!=7 && x+z!=7 && y+z!=7)
+                {
+                    DibujarDado(x, y, z);
+                    aux = 1;
+                }
+
+               
+
+            }
+           
+
+
+
+            
         }
 
     }
