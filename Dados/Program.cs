@@ -6,21 +6,32 @@ namespace Dados
     {
         static void Main(string[] args)
         {
-           
 
 
+            Console.WriteLine("Bienvenido a la aplicacion Dado en C#.");
+            Console.WriteLine("Presione ESC para terminar la aplicación");
+            Console.WriteLine("Presione ENTER para ver una nueva visualización");
+            Console.WriteLine("------------------------------------------------------");
 
-            while (Console.ReadKey().Key == ConsoleKey.Enter)
+            while (Console.ReadKey().Key != ConsoleKey.Escape)
             {
-              
-                Console.WriteLine("Nueva visualizacion");
+                
+                if(Console.ReadKey().Key == ConsoleKey.Enter)
+                {
+                    Console.WriteLine("Nueva visualizacion");
 
-                DadoAleatorio();
+                    DadoAleatorio();
+                    
+                   
+
+                }
+               
+                
                 
 
             }
 
-
+           
 
 
 
