@@ -65,9 +65,9 @@ namespace Dados
             
             while (aux == 0){
                
-                x = random.Next(1, 6);
-                y = random.Next(1, 6);
-                z = random.Next(1, 6);
+                x = random.Next(1, 7);
+                y = random.Next(1, 7);
+                z = random.Next(1, 7);
 
                 if(x!=y && x!=z && y!=z && x+y!=7 && x+z!=7 && y+z!=7)
                 {
