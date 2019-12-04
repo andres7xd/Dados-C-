@@ -6,16 +6,22 @@ namespace Dados
     {
         static void Main(string[] args)
         {
-           
+            Console.WriteLine("Bienvenido a la aplicación en c#");
+            Console.WriteLine("Presion ESC para terminar la aplicación");
+            Console.WriteLine("Presione ENTER para obetener una nueva visualización");
+            Console.WriteLine("------------------------------------------------------------");
 
 
 
-            while (Console.ReadKey().Key == ConsoleKey.Enter)
+            while (Console.ReadKey().Key != ConsoleKey.Escape)
             {
-              
-                Console.WriteLine("Nueva visualizacion");
+                if(Console.ReadKey().Key == ConsoleKey.Enter)
+                {
+                    Console.WriteLine("Nueva visualizacion");
 
-                DadoAleatorio();
+                    DadoAleatorio();
+                }
+               
                 
 
             }
@@ -48,25 +54,37 @@ namespace Dados
         {
             int aux = 0;
             int x, y, z = 0;
+            int suma=0;
+
+
            
             Random random = new Random();
           
             
-            while (aux == 0){
+           
                
-                x = random.Next(1, 6);
-                y = random.Next(1, 6);
-                z = random.Next(1, 6);
-
-                if(x!=y && x!=z && y!=z && x+y!=7 && x+z!=7 && y+z!=7)
+                for(int i=0;i < 2; i++)
                 {
-                    DibujarDado(x, y, z);
-                    aux = 1;
-                }
+                    while (aux == 0)
+                    {
+                    x = random.Next(1, 7);
+                    y = random.Next(1, 7);
+                    z = random.Next(1, 7);
 
+                    if (x != y && x != z && y != z && x + y != 7 && x + z != 7 && y + z != 7)
+                    {
+                        DibujarDado(x, y, z);
+                        aux = 1;
+                        suma = suma + x;
+                    }
+                    }
+
+                aux = 0;
                
 
-            }
+                 }
+
+            Console.WriteLine("La suma es: {0}",suma);
            
 
 
